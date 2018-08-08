@@ -1,24 +1,40 @@
-# README
+# Features
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+All users can:
 
-Things you may want to cover:
+1. View list of articles, list of tags
+2. View articles by tags
+3. View individual article and post comments
 
-* Ruby version
+Only logged-in users can:
 
-* System dependencies
+1. Create, edit, delete articles
+2. View, edit, create and delete authors
+3. Author account creation:
 
-* Configuration
+If there are zero authors in the system, anyone can access the form in new_author_path (/authors/new) to create the first author account
+Subsequently, new author accounts are created by users with existing account. Access to new_author_path (/authors/new) form will be blocked unless user is logged in.
 
-* Database creation
+## Components
 
-* Database initialization
+Built on Ruby v2.3.0, Rails v5.0.7
+Paperclip gem for image file attachment (Paperclip is dependent on ImageMagick program)
+Sorcery gem for authentication
+Uses PostgreSQL database in production
 
-* How to run the test suite
+### Concepts
 
-* Services (job queues, cache servers, search engines, etc.)
+This application demonstrates the following concepts using Ruby on Rails
 
-* Deployment instructions
+Designing an MVC (Model, View, and Controller) web application architecture
+RESTful design principles
+Relational Data Modeling and Relationships
+Data Schema Migrations
+HTTP Request Handling and Routing
+Web Views with HTML forms, partials, and view helpers
+Using Rails generators (e.g. scaffold, scaffold_controller)
+Using Ruby gems for additional functionality
 
-* ...
+#### Live Version
+
+[Demo](https://bloggerforum.herokuapp.com)
