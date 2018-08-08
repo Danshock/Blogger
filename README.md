@@ -2,15 +2,15 @@
 
 All users can:
 
-1. View list of articles, list of tags
-2. View articles by tags
-3. View individual article and post comments
+..* View list of articles, list of tags
+..* View articles by tags
+..* View individual article and post comments
 
 Only logged-in users can:
 
-1. Create, edit, delete articles
-2. View, edit, create and delete authors
-3. Author account creation:
+..* Create, edit, delete articles
+..* View, edit, create and delete authors
+..* Author account creation:
 
 If there are zero authors in the system, anyone can access the form in new_author_path (/authors/new) to create the first author account
 Subsequently, new author accounts are created by users with existing account. Access to new_author_path (/authors/new) form will be blocked unless user is logged in.
