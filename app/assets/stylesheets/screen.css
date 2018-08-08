@@ -205,7 +205,7 @@ padding-left:0;
 border:0;
 padding-bottom:1em}.comment + .comment{border-top:none}.comment + h3,.comment + h4{margin:0 0 .5em}.comment:nth-last-of-type(1){border-bottom:1px solid #ddd;
 margin-bottom:2em}h1,h2,h3,h4,h5,h6{font-weight:bold}.top-button,a.new_article,.article_actions a[href$='edit'],.article_actions a[data-method='delete']{position:absolute;
-top:26px;
+top:6px;
 right:20px;
 display:inline-block;
 padding:4px 11px;
